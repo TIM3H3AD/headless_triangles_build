@@ -1,0 +1,18 @@
+obj/anonymize.o: tor/anonymize.cpp tor/anonymize.h \
+ /home/wb/Desktop/triangles-master/src/util.h \
+ /home/wb/Desktop/triangles-master/src/uint256.h \
+ /home/wb/Desktop/triangles-master/src/netbase.h \
+ /home/wb/Desktop/triangles-master/src/serialize.h \
+ /home/wb/Desktop/triangles-master/src/allocators.h \
+ /home/wb/Desktop/triangles-master/src/version.h \
+ /home/wb/Desktop/triangles-master/src/clientversion.h \
+ /home/wb/Desktop/triangles-master/src/compat.h
+tor/anonymize.cpp tor/anonymize.h :
+ /home/wb/Desktop/triangles-master/src/util.h :
+ /home/wb/Desktop/triangles-master/src/uint256.h :
+ /home/wb/Desktop/triangles-master/src/netbase.h :
+ /home/wb/Desktop/triangles-master/src/serialize.h :
+ /home/wb/Desktop/triangles-master/src/allocators.h :
+ /home/wb/Desktop/triangles-master/src/version.h :
+ /home/wb/Desktop/triangles-master/src/clientversion.h :
+ /home/wb/Desktop/triangles-master/src/compat.h :
