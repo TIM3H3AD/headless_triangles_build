@@ -6,10 +6,13 @@ This wallet supports the staking=0 option in the triangles.conf file to disable 
 
 Headless Build Instructions:
 
-See dependencies in DOC/unix_build
+See dependencies in doc/build-unix.txt
 
 cd src/leveldb
+
 chmod 755 *
+
 cd ..
+
 make -f makefile.unix
 
