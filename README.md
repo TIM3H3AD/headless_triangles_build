@@ -4,9 +4,11 @@ Triangles is a cool new crypto currency that features TOR implementation and sec
 
 This wallet supports the staking=0 option in the triangles.conf file to disable the stake miner thread for pool and exchange operators.
 
-(To compile on 18.04 you will need to downgrade SSL. Skip these REMOVE & INSTALL SSL commands if installing on 16.04, just BUILD)
+---
 
-REMOVE & INSTALL SSL 
+Note: To compile on 18.04 you will need to downgrade SSL. Skip these REMOVE & INSTALL SSL commands if installing on 16.04 & just BUILD)
+
+REMOVE & INSTALL SSL (for 18.04+)
 ---
 sudo apt remove libssl-dev
 
